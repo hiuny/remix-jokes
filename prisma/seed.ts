@@ -24,8 +24,8 @@ function getJokes() {
       content: `I was wondering why the frisbee was getting bigger, then it hit me.`,
     },
     {
-      name: "Trees",
-      content: `Why do trees seem suspicious on sunny days? Dunno, they're just a bit shady.`,
+      name: "나무들",
+      content: `맑은 날에 나무가 의심스러워 보이는 이유는 무엇입니까? 몰라, 그들은 단지 약간 그늘입니다.`,
     },
     {
       name: "Skeletons",
