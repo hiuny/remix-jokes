@@ -51,3 +51,17 @@ rm -rf app
 # copy your app over
 cp -R ../my-old-remix-app/app app
 ```
+
+
+### 추가
+로컬에서 앱을 정상 실행하려면 프로젝트 루트에 `.env`파일을 만들고 아래 내용을 복붙한다.
+
+경로 `/.env`
+```
+DATABASE_URL="file:./dev.db"
+SESSION_SECRET="아무값"
+```
+그 후, 
+- `npx prisma db push`
+- `node --require esbuild-register prisma/seed.ts`
+명령을 실행하고 `npm run dev`를 실행하면 된다.
