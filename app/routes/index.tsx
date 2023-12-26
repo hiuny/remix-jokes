@@ -23,7 +23,7 @@ export default function IndexRoute() {
         <nav>
           <ul>
             <li>
-              <Link to="jokes">Read Jokes</Link>
+              <Link to="jokes">Read Jokes
             </li>
           </ul>
         </nav>
