@@ -36,7 +36,7 @@ export const action: ActionFunction = async ({
   request,
 }) => {
   const userId = await requireUserId(request);
-  const form = await request.formData();
+  const form = request.formData();
   const name = form.get("name");
   const content = form.get("content");
   // we do this type check to be extra sure and to make TypeScript happy
